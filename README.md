@@ -1,12 +1,12 @@
 # samp-map-parser
 
-Зависимости:
+Р—Р°РІРёСЃРёРјРѕСЃС‚Рё
 
 1. streamer
 2. sscanf
 3. strlib
 
-Использование:
+РСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ:
 public OnGameModeInit()
 {
     new virtualWorld = 5, interior = 1;
