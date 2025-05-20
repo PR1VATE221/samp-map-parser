@@ -1,7 +1,3 @@
-#include            <streamer>
-#include            <sscanf2>
-#include			<strlib.inc>
-
 static RemoveQuotes(string[])
 {
     new length = strlen(string);
@@ -55,6 +51,8 @@ stock MapParserLoad(const filename[], virtualWorld, interior) {
     }
 
     fclose(file);
+
+    printf("[Mapping Connector] Загружен файл маппинга \"%s\"", filename);
 }
 
 main() {
